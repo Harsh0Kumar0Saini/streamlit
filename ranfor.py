@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 
-tel = pd.read_csv(r"C:\Users\HARSH KUMAR SAINI\Downloads\project2 (1).csv")
+tel = pd.read_csv('project2(1).csv')
 pd.set_option('display.max_rows',None)
 print(tel.head(5))
 print(tel.info())
